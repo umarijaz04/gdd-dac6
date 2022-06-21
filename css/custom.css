@@ -1,0 +1,657 @@
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../fonts/Bahnschrift.eot?#iefix') format('embedded-opentype'), url('../fonts/Bahnschrift.woff') format('woff'), url('../fonts/Bahnschrift.ttf') format('truetype'), url('../fonts/Bahnschrift.svg#Bahnschrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FranklinGothic-Demi';
+    src: url('../fonts/FranklinGothic-Demi.eot?#iefix') format('embedded-opentype'), url('../fonts/FranklinGothic-Demi.woff') format('woff'), url('../fonts/FranklinGothic-Demi.ttf') format('truetype'), url('../fonts/FranklinGothic-Demi.svg#FranklinGothic-Demi') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Book';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Franklin Gothic Book'), local('FranklinGothicBook-Regular'),
+        url('../fonts/franklin-gothic-book_6828c3c3f40c2a9342244b862d5542cb.woff') format('woff'),
+        url('../fonts/franklin-gothic-book_6828c3c3f40c2a9342244b862d5542cb.ttf') format('truetype');
+}
+
+
+/*landing page*/
+.bgimg {
+    background-image: url('../images/dac-6-background.jpg');
+    background-position: 86% 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.topright {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.middle-heading {
+    margin-top: 14%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.arrow-hyperlink-1 {
+    padding-left: 10px;
+    font-family: 'FranklinGothic-Demi', 'Arial', 'Helvetica';
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.arrow-hyperlink-2 {
+    padding-right: 10px;
+    font-family: 'FranklinGothic-Demi', 'Arial', 'Helvetica';
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.column-1 {
+    display: block;
+    text-align: right;
+}
+
+.column-2 {
+    display: none;
+}
+
+.column-3 {
+    text-align: left;
+    margin: inherit;
+}
+
+/*main page*/
+.main-cover {
+    background-image: url("../images/dac-6-background.jpg");
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 86% 5%;
+}
+
+.header-logo {
+    float: right;
+    margin-right: 39px;
+    width: 120px;
+    height: 152px;
+}
+
+#btn-top {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#btn-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.link-btn-2 {
+    margin-left: 20px;
+}
+
+.header {
+    padding: 80px 0px 30px 0px;
+    color: #ffffff;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+.header-title {
+    font-family: 'Bahnschrift', 'Arial', 'Helvetica';
+    font-size: 60px;
+    line-height: 1.05;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    padding-bottom: 18px;
+}
+
+.header-subtitle {
+    font-family: 'Bahnschrift', 'Arial', 'Helvetica';
+    font-size: 45px;
+    line-height: 1.05;
+    letter-spacing: -1.65px;
+}
+
+.header-content {
+    font-family: 'Franklin Gothic Book', 'Arial', 'Helvetica';
+    font-size: 17px;
+    line-height: 1.33;
+    letter-spacing: -0.3px;
+}
+
+.header-content-1 {
+    font-family: 'FranklinGothic-Demi', 'Arial', 'Helvetica';
+    font-size: 18px;
+    line-height: 1.42;
+    letter-spacing: -0.26px;
+}
+
+.presentation {
+    background-color: #e9ebef;
+    color: #0b0c0c;
+    padding-top: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.presentation-1 {
+    background-color: #ffffff;
+    color: #0b0c0c;
+    padding-top: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+.presentation-heading {
+    font-family: 'Bahnschrift', 'Arial', 'Helvetica';
+    font-size: 38px;
+    line-height: 1.2;
+    letter-spacing: -1.65px;
+    font-weight: 400;
+}
+
+.presentation-content {
+    font-family: 'Franklin Gothic Book', 'Arial', 'Helvetica';
+    font-size: 17px;
+    line-height: 1.31;
+    letter-spacing: -0.26px;
+}
+
+.aside-section {
+    font-family: 'Bahnschrift', 'Arial', 'Helvetica';
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.2;
+    color: #0b0c0c;
+}
+
+.aside-heading {
+    font-size: 25px;
+    letter-spacing: -0.88px;
+    padding-top: 80px;
+}
+
+.aside-content {
+    font-size: 19px;
+    letter-spacing: -1.16px;
+}
+
+.btn-contact {
+    width: 140px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 6px;
+    background-color: #da7012;
+    font-size: 21px;
+    line-height: 1.23;
+    letter-spacing: -1.03px;
+    color: #ffffff;
+}
+
+.btn-feature {
+    width: 140px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 6px;
+    background-color: #da7012;
+    font-size: 21px;
+    line-height: 1.23;
+    letter-spacing: -1.03px;
+    color: #ffffff !important;
+    margin: 30px 0px 25px 0px;
+    cursor: default;
+}
+
+a.btn-contact:hover {
+    color: #ffffff;
+}
+
+a.btn-feature:hover {
+    color: #ffffff;
+}
+
+a.feature-link {
+    color: #0b0c0c;
+}
+
+
+.btn-dropdown {
+    background: url("../images/dropdown.png") no-repeat;
+    width: 44%;
+    height: 51%;
+    border: none;
+}
+
+.dropdown-heading {
+    font-family: 'Bahnschrift', 'Arial', 'Helvetica';
+    font-size: 38px;
+    line-height: 1.2;
+    letter-spacing: -1.65px;
+    font-weight: 400;
+}
+
+.grid-section {
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: #0b0c0c;
+}
+
+.grid-heading {
+    font-family: 'FranklinGothic-Demi', 'Arial', 'Helvetica';
+    font-size: 18px;
+    padding-bottom: 3px;
+    font-weight: 100;
+}
+
+.grid-content {
+    background-color: #e9ebef;
+    font-family: 'Franklin Gothic Book', 'Arial', 'Helvetica';
+    font-size: 16px;
+    padding-top: 15px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.faq-content {
+    font-family: 'Franklin Gothic Book', 'Arial', 'Helvetica';
+    font-size: 16px;
+    padding-top: 4px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.tick-box {
+    width: 20px;
+    height: 20px;
+}
+
+.serial-section {
+    font-family: 'FranklinGothic-Demi', 'Arial', 'Helvetica';
+    text-align: left;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.dropdown-section {
+    padding-top: 30px;
+}
+
+.faq-heading {
+    font-family: 'FranklinGothic-Demi', 'Arial', 'Helvetica';
+    font-size: 18px;
+    padding-bottom: 3px;
+    font-style: italic;
+}
+
+
+.icon-greater-than {
+    color: #da7012;
+}
+
+
+.footer {
+    background-color: #1f2327;
+    margin: 30px 0px 0px 0px;
+    padding: 0rem 1rem 2rem 1rem;
+    font-family: 'Franklin Gothic Book', 'Arial', 'Helvetica';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.7;
+    letter-spacing: -0.26px;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .dropdown-heading {
+        font-size: 24px;
+    }
+
+    .item-heading {
+        max-width: 12.333333%;
+    }
+
+    .title-heading {
+        max-width: 62%;
+    }
+
+    .available-heading {
+        padding-left: 0px !important;
+    }
+
+    .col-tick-box {
+        padding-left: 0px;
+    }
+
+    .middle {
+        padding-top: 140px;
+        padding-left: 36px;
+    }
+
+    .link-btn {
+        margin-left: 20px;
+    }
+
+    .column-1 {
+        display: none;
+    }
+
+    .column-2 {
+        display: block;
+        text-align: left;
+    }
+
+    .column-3 {
+        text-align: left;
+        margin: initial;
+        margin-top: 15px;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .dropdown-heading {
+        font-size: 24px;
+    }
+
+    .col-tick-box {
+        padding-left: 55px !important;
+    }
+
+    .middle {
+        padding-top: 140px;
+        padding-left: 36px;
+    }
+
+    .link-btn {
+        margin-left: 20px;
+    }
+
+    .column-1 {
+        display: none;
+    }
+
+    .column-2 {
+        display: block;
+        text-align: left;
+    }
+
+    .column-3 {
+        text-align: left;
+        margin: initial;
+        margin-top: 15px;
+    }
+
+    .bgimg {
+        height: auto !important;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .dropdown-heading {
+        font-size: 24px;
+    }
+
+    .item-heading {
+        max-width: 10.333333%;
+    }
+
+    .title-heading {
+        max-width: 68%;
+    }
+
+    .available-heading {
+        padding-left: 8px !important;
+    }
+
+    .col-tick-box {
+        padding-left: 15px;
+    }
+
+    .middle {
+        padding-top: 140px;
+        padding-left: 40px;
+    }
+
+    .link-btn {
+        padding-left: 6px;
+    }
+
+    .link-btn-2 {
+        padding-left: 6px;
+        padding-top: 30px;
+    }
+
+    .column-1 {
+        display: none;
+    }
+
+    .column-2 {
+        display: block;
+        text-align: left;
+    }
+
+    .column-3 {
+        text-align: left;
+        margin: initial;
+        margin-top: 15px;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    .dropdown-heading {
+        font-size: 24px;
+    }
+
+    .item-heading {
+        max-width: 9.333333% !important;
+    }
+
+    .title-heading {
+        max-width: 72% !important;
+    }
+
+    .available-heading {
+        padding-left: 20px !important;
+    }
+
+    .col-tick-box {
+        padding-left: 25px !important;
+    }
+
+    .middle {
+        padding-top: 150px;
+        padding-left: 40px;
+        padding-right: 12px;
+    }
+
+    .link-btn {
+        padding-left: 5px;
+    }
+
+    .link-btn-2 {
+        padding-left: 5px;
+        padding-top: 30px;
+    }
+
+    .column-1 {
+        display: none;
+    }
+
+    .column-2 {
+        display: block;
+        text-align: left;
+    }
+
+    .column-3 {
+        text-align: left;
+        margin: initial;
+        margin-top: 15px;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    .dropdown-heading {
+        font-size: 24px;
+    }
+
+    .item-heading {
+        max-width: 10.333333%;
+    }
+
+    .title-heading {
+        max-width: 68%;
+    }
+
+    .available-heading {
+        padding-left: 0px;
+    }
+
+    .col-tick-box {
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 577px) {
+    .available-heading {
+        padding-left: 42px;
+    }
+
+    .title-heading {
+        max-width: 75%;
+    }
+
+    .intro-header {
+        background-position: 83% 100%;
+    }
+
+    .col-tick-box {
+        padding-left: 44px;
+    }
+
+    .middle {
+        padding-top: 140px;
+        padding-left: 36px;
+    }
+
+    .link-btn {
+        margin-left: 20px;
+    }
+
+    .column-1 {
+        display: none;
+    }
+
+    .column-2 {
+        display: block;
+        text-align: left;
+    }
+
+    .column-3 {
+        text-align: left;
+        margin: initial;
+        margin-top: 15px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .available-heading {
+        padding-left: 12px;
+    }
+
+    .title-heading {
+        max-width: 75%;
+    }
+
+    .intro-header {
+        background-position: 83% 100%;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .available-heading {
+        padding-left: 43px;
+    }
+
+    .intro-header {
+        background-position: 92% 5%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .available-heading {
+        padding-left: 31px;
+    }
+
+    .intro-header {
+        background-position: 92% 5%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .available-heading {
+        padding-left: 51px;
+    }
+
+    .intro-header {
+        background-position: 92% 5%;
+    }
+}
